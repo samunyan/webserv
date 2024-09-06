@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" type="image/x-icon" href="/assets/favicon.ico">
+    <link rel="stylesheet" type="text/css" href="/assets/stylesheet.css">
+    <title>Upload</title>
+</head>
+<body>
+<header>
+    <h1>Upload</h1>
+</header>
+
+<section id="index-section">
+	<form action="/upload.cgi" method="post" enctype="multipart/form-data">
+		<label for="myFile">Select a file</label>
+		<input type="file" id="myFile" name="filename">
+		<input type="submit">
+	  </form>
+</section>
+</body>
+</html>
